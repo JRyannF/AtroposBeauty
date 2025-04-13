@@ -1,10 +1,9 @@
 # Atropos Beauty
 
-A modern, responsive website for **Atropos Beauty**, a boutique esthetics studio offering services like waxing, facials, microblading, and makeup. Designed with a bold, retro-inspired aesthetic, this site highlights services, aftercare instructions, and contact info in an elegant and user-friendly layout.
+A modern, responsive website for **Atropos Beauty**, a boutique esthetics studio offering services like waxing, facials, microblading, and makeup. Designed with a bold, retro-inspired aesthetic, this site highlights services, aftercare instructions, and contact info in an elegant, user-friendly layout.
 
-![Atropos Beauty Home Page](assets/Finkbeiner-AtroposBeauty_Project-1.png)
 
-## ✨ Features
+✨ Features
 
 - **Fully responsive design** for mobile, tablet, and desktop
 - **Custom service pages** for Waxing, Brows, Facials, and Makeup
@@ -12,7 +11,7 @@ A modern, responsive website for **Atropos Beauty**, a boutique esthetics studio
 - **Contact form and location details**
 - Elegant and thematic **branding**, color palette, and typography
 
-## 🖥️ Pages Included
+Pages Included
 
 | Page        | Description                                         |
 |-------------|-----------------------------------------------------|
@@ -23,20 +22,15 @@ A modern, responsive website for **Atropos Beauty**, a boutique esthetics studio
 
 ---
 
-## 🎨 Design Aesthetic
+🎨 Design Aesthetic
 
 The design features bold pinks, purples, and soft neon tones, evoking a nostalgic yet edgy atmosphere. Typography includes:
 - **Berkshire Swash** for headings
 - **Open Sans / Roboto** for clean, readable body text
 
-Service icons and sections use glowing circular visuals and retro-inspired imagery to stand out against the dark background.
-
-![Service Detail](assets/Finkbeiner-AtroposBeauty_Project-2.png)
-![Aftercare Page](assets/Finkbeiner-AtroposBeauty_Project-3.png)
-
 ---
 
-## 🛠️ Built With
+Built With
 
 - **HTML5**
 - **CSS3**
@@ -45,7 +39,7 @@ Service icons and sections use glowing circular visuals and retro-inspired image
 
 ---
 
-## 📍 Location & Contact
+📍 Location & Contact
 
 Atropos Beauty  
 📍 4360 Montebello Dr #100, Colorado Springs, CO 80917  
@@ -53,12 +47,3 @@ Atropos Beauty
 📸 Instagram & Facebook linked in footer  
 
 ---
-
-## 🚀 Getting Started
-
-To preview the site locally:
-
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/yourusername/atropos-beauty.git
-
