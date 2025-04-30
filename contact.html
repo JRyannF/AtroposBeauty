@@ -74,5 +74,25 @@
                 </div>
             </div>
         </footer>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+        $(document).ready(function () {
+            $(".contact-form").on("submit", function (e) {
+            e.preventDefault();
+            $(".contact-form").after("<p class='success-msg'>Thanks for reaching out, I'll get back to you soon!💖</p>");
+            $(this).trigger("reset");
+            });
+
+            $(".contact-form input, .contact-form textarea").on("focus", function () {
+            $(this).css("border-bottom", "3px solid #F222A9");
+            });
+
+            $(".contact-form input, .contact-form textarea").on("blur", function () {
+            $(this).css("border-bottom", "3px solid #EFE5EA");
+            });
+        });
+        </script>
     </body>
 </html>
