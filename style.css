@@ -120,7 +120,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fadeInSlide 1s ease-out both;
+    animation: fadeInSlide 3s ease-out both;
 }
 
 .content {
