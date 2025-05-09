@@ -20,38 +20,55 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="booking.html">Booking</a></li>
-                    <li><a href="aftercare.html">Aftercare</a></li>
+                    <li><a href="aftercare.html" class="active">Aftercare</a></li>
                     <li><a href="porfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
-        <main class="contact-page">
-            <div class="contact-container">
-              <section class="contact-info">
-                <h2>location</h2>
-                <p>4360 Montebello Dr #100<br>Colorado Springs, CO 80917</p>
-          
-                <h2>follow Atropos</h2>
-                <div class="social-icons">
-                  <a href="#"><img src="resources/facebook.png" alt="Facebook"></a>
-                  <a href="#"><img src="resources/instagram.png" alt="Instagram"></a>
+        <main class="aftercare-page">
+          <h1>Aftercare Instructions</h1>
+            <section class="aftercare-section">
+              <!-- Brow Lamination -->
+              <div class="aftercare-flex">
+                <div class="image-box">
+                  <img src="resources/brows_1.jpg">
                 </div>
-                <img src="resources/Thankyou-Logo.jpeg" alt="Thank You Card" class="thank-you-image">
-              </section>
-          
-              <section class="contact-form-section">
-                <h2>contact form</h2>
-                <form class="contact-form" action="#" method="POST">
-                  <input type="text" name="name" placeholder="Enter your Name" required>
-                  <input type="email" name="email" placeholder="Enter a valid email address" required>
-                  <textarea name="message" placeholder="Enter your message" required></textarea>
-                  <button type="submit">Submit</button>
-                </form>
-              </section>
+                <div class="instructions-text">
+                  <h2>Brow Lamination</h2>
+                  <p><strong>Duration:</strong> Results typically last 4–6 weeks.</p>
+                  <ul>
+                    <li><strong>24 Hour Rule:</strong> Do not wet your eyebrows for 24 hours.</li>
+                    <li><strong>Steam & Water Caution:</strong> Avoid hot showers, saunas, steam rooms, and pools.</li>
+                    <li><strong>Makeup Warning:</strong> No eye makeup for 12 hours. Use oil-free remover if needed.</li>
+                    <li><strong>Hands Off:</strong> Avoid touching or rubbing your brows.</li>
+                    <li><strong>Sun & Skincare:</strong> Limit sun, avoid chlorine and active skincare on brows.</li>
+                  </ul>
+                </div>
+              </div>
+
+            <!-- Microblade -->
+            <div class="aftercare-flex">
+              <div class="image-box">
+                <img src="resources/microblade_2.jpg" alt="Microblading Aftercare">
+              </div>
+              <div class="instructions-text">
+                <h2>Microblading</h2>
+                <ul>
+                  <li><strong>Keep Brows Dry:</strong> No water for 10 days.</li>
+                  <li><strong>Dry Healing Only:</strong> Avoid ointments like Aquaphor or Neosporin.</li>
+                  <li><strong>Face Product Precautions:</strong> Keep skin products away from brows.</li>
+                  <li><strong>Skip the Sweat:</strong> Avoid exercise and sweat for 10 days.</li>
+                  <li><strong>No Picking or Scratching:</strong> Let scabs fall off naturally.</li>
+                  <li><strong>Sun Protection:</strong> Protect from direct sun to prevent fading.</li>
+                  <li><strong>Prevent Infection:</strong> Treat as an open wound—avoid contamination.</li>
+                </ul>
+              </div>
             </div>
-          </main>   
+          </section>
+        </main>
+
 
         <footer>
             <div class="footer-container">
@@ -86,25 +103,5 @@
                 </div>
             </div>
         </footer>
-
-
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script>
-        $(document).ready(function () {
-            $(".contact-form").on("submit", function (e) {
-            e.preventDefault();
-            $(".contact-form").after("<p class='success-msg'>Thanks for reaching out, I'll get back to you soon!💖</p>");
-            $(this).trigger("reset");
-            });
-
-            $(".contact-form input, .contact-form textarea").on("focus", function () {
-            $(this).css("border-bottom", "3px solid #F222A9");
-            });
-
-            $(".contact-form input, .contact-form textarea").on("blur", function () {
-            $(this).css("border-bottom", "3px solid #EFE5EA");
-            });
-        });
-        </script>
     </body>
 </html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Merriweather&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet"/>
+  <title>Booking | Atropos Beauty</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+  <body>
+    <header>
+      <div class="header-content">
+        <img src="resources/header-image.png" alt="Savanna logo" class="logo"/>
+        <h1>Atropos Beauty</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+            <li><a href="booking.html" class="active">Booking</a></li>
+          <li><a href="aftercare.html">Aftercare</a></li>
+          <li><a href="porfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="booking-page">
+      <h1 class="booking-title">Book Your Appointment</h1>
+      <p class="booking-intro">
+        Use the form below to request an appointment. We'll follow up with confirmation and next steps.
+      </p>
+
+      <div class="booking-container">
+        <section class="booking-form-section">
+          <form class="contact-form" action="#" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number (Optional)">
+            <input type="date" name="date" required>
+            <select name="service" required>
+              <option value="">Select a Service</option>
+              <option value="brows">Brows & Microblading</option>
+              <option value="facials">Facials & Body Treatments</option>
+              <option value="waxing">Waxing</option>
+              <option value="makeup">Makeup</option>
+            </select>
+            <textarea name="notes" placeholder="Any details or requests? (optional)"></textarea>
+            <button type="submit">Request Booking</button>
+          </form>
+        </section>
+
+        <section class="contact-info">
+          <h2>visit us</h2>
+          <p>4360 Montebello Dr #100<br>Colorado Springs, CO 80917</p>
+
+          <h2>follow Atropos</h2>
+          <div class="social-icons">
+            <a href="#"><img src="resources/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="resources/instagram.png" alt="Instagram"></a>
+          </div>
+          <img src="resources/Thankyou-Logo.jpeg" alt="Thank You Card" class="thank-you-image">
+        </section>
+      </div>
+    </main>
+
+            <footer>
+              <div class="footer-container">
+                  <!-- Logo -->
+                  <div class="footer-logo">
+                      <img src="resources/Logo-Updated.jpg" alt="Logo for 'Atropos Beauty' featuring elegant pink and purple glowing text on a dark background. A stylized illustration of a death's-head hawk moth is subtly visible in the background, adding a mysterious and gothic aesthetic.">
+                  </div>
+
+                  <!-- Business Address (Centered) -->
+                  <div class="footer-info">
+                      <p><strong>Atropos Beauty</strong></p>
+                      <p>4360 Montebello Dr #100</p>
+                      <p>Colorado Springs, CO 80917</p>
+                      <img src="resources/icons8-phone-18.png" alt="telephone icon"><a href="tel:+17196436662">+1 (719) 643-6662</a>
+                  </div>
+
+                  <div class="footer-icons">
+                    <div class="hamburger-menu">
+                      <input type="checkbox" id="menu-toggle" />
+                      <label for="menu-toggle" class="menu-icon">☰</label>
+                      <nav class="footer-nav">
+                        <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="services.html">Services</a></li>
+                          <li><a href="booking.html">Booking</a></li>
+                          <li><a href="aftercare.html">Aftercare</a></li>
+                          <li><a href="porfolio.html">Portfolio</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+              </div>
+          </footer>
+  </body>
+</html>
