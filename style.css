@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 10px;
+    padding: 20px;
     background-color: #200d1c;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -40,10 +40,11 @@ header {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-right: 15px;
+     box-shadow: 0px 0px 10px #EFE5EA;
 }
 
 
@@ -70,8 +71,9 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #F222A9;
+    color: #EFE5EA;
     font-size: 18px;
+    font-family: 'Merriweather';
     transition: 0.3s;
 }
 
@@ -80,7 +82,7 @@ nav ul li a:hover {
 }
 
 nav ul li a.active {
-    color:#EFE5EA;
+    color:#F222A9;
     text-decoration:underline;
 }
 
@@ -105,6 +107,8 @@ main {
     }
   }
 
+
+  
 /*HOMEPAGE*/
 /* Welcome Message */
 .welcome-content {
@@ -198,7 +202,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 300px;
+    height: 250px;
 }
 
 .text-box h2 {
@@ -220,7 +224,7 @@ main {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-family: 'Open Sans';
+    font-family: 'Merriweather';
     border-radius: 5px;
     transition: 0.3s;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -271,10 +275,15 @@ main {
     box-shadow: 0px 0px 10px #F222A9;
 }
 
+.services-text h2{
+    font-family: 'Merriweather';
+}
+
 .service a {
     margin-top: 10px;
     font-size: 14px;
     font-weight: bold;
+    font-family: 'Open Sans';
     text-transform: uppercase;
     text-decoration: none;
     color: #EFE5EA;
@@ -285,6 +294,7 @@ main {
     color:#F2695C;
     transform: scale(1.1);
 }
+
 
 
 /* SERVICES PAGE */
@@ -318,7 +328,7 @@ main {
     min-width: 300px;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
 }
 
@@ -330,6 +340,13 @@ main {
 .service-flex .services-text h6 {
     color: #F222A9;
 }
+
+.waxing-menu h3 {
+    color:#F222A9
+}
+
+
+
 
 /* BOOKING PAGE STYLES */
 .booking-page {
@@ -349,10 +366,11 @@ main {
 .booking-intro {
     font-family: 'Merriweather', sans-serif;
     font-size: 16px;
-    color: #F28963;
+    color: #F222A9;
     max-width: 600px;
     margin: 0 auto 40px;
     line-height: 1.5;
+    padding-top: 20px;
 }
 
 .booking-container {
@@ -388,11 +406,11 @@ main {
 .booking-form-section form select:focus,
 .booking-form-section form textarea:focus {
     outline: none;
-    border-bottom-color: #F28963;
+    border-bottom-color: #F222A9;
 }
 
 .booking-form-section form button {
-    background-color: #F28963;
+    background-color: #F222A9;
     color: white;
     font-weight: bold;
     padding: 12px 20px;
@@ -414,6 +432,7 @@ main {
     min-width: 280px;
     text-align: left;
 }
+
 
 
 /* AFTERCARE PAGE */
@@ -475,7 +494,7 @@ main {
 }
 
 .aftercare-flex .instructions-text h2 {
-  font-family: 'Berkshire Swash', serif;
+  font-family: 'Merriweather', serif;
   color: #EFE5EA;
   margin-bottom: 10px;
 }
@@ -490,7 +509,8 @@ main {
 }
 
 .instructions-text strong {
-  color: #F2695C;
+  color: #F28963;
+  font-family: 'Merriweather';
 }
 
 
@@ -611,6 +631,7 @@ main {
     padding: 10px 18px;
     font-size: 16px;
     font-weight: bold;
+    font-family: 'Merriweather';
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -619,7 +640,7 @@ main {
 }
 
 .contact-form button:hover {
-    background-color: #F2695C;
+    background-color: #F222A9;
     transform: scale(1.1);
 }
 
@@ -640,6 +661,7 @@ main {
     margin: 0 auto 60px;
     padding: 0 20px;
 }
+
 
 .insta-tile {
     width: 100%;
@@ -750,9 +772,6 @@ footer {
   transform: scale(1.1);
 }
 
-#menu-toggle {
-  display: none;
-}
 
 .footer-nav {
   display: none;
@@ -789,12 +808,27 @@ footer {
   color: #F2695C;
 }
 
-/* Toggle menu visibility */
-#menu-toggle:checked + .menu-icon + .footer-nav {
-  display: block;
-}
-
-
+.hamburger-menu {
+    position: relative;
+  }
+  
+  .hamburger-menu:hover .footer-nav {
+    display: block;
+  }
+  
+  .footer-nav {
+    display: none;
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    background-color: #200d1c;
+    border: 2px solid #F28963;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #F28963;
+    z-index: 10;
+    min-width: 150px;
+  }
+  
 
 
 
