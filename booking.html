@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Merriweather&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Merriweather&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
   <title>Booking | Atropos Beauty</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css">
 </head>
   <body>
     <header>
       <div class="header-content">
-        <img src="resources/header-image.png" alt="Savanna logo" class="logo"/>
+        <img src="resources/header-image.png" alt="Savanna logo" class="logo">
         <h1>Atropos Beauty</h1>
       </div>
       <nav>
@@ -35,11 +35,15 @@
 
       <div class="booking-container">
         <section class="booking-form-section">
-          <form class="contact-form" action="#" method="POST">
+          <form class="contact-form" action="https://formsubmit.co/savanna.atropos@gmail.com" method="POST">
             <input type="text" name="name" placeholder="Full Name" required>
             <input type="email" name="email" placeholder="Email Address" required>
             <input type="tel" name="phone" placeholder="Phone Number (Optional)">
             <input type="date" name="date" required>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_subject" value="New Booking Request">
+
             <select name="service" required>
               <option value="">Select a Service</option>
               <option value="brows">Brows & Microblading</option>
@@ -58,46 +62,45 @@
 
           <h2>follow Atropos</h2>
           <div class="social-icons">
-            <a href="#"><img src="resources/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="resources/instagram.png" alt="Instagram"></a>
+            <a href="https://facebook.com/atroposbeauty"><img src="resources/facebook-pink.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/atroposbeauty?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="resources/instagram-pink.png" alt="Instagram"></a>
           </div>
           <img src="resources/Thankyou-Logo.jpeg" alt="Thank You Card" class="thank-you-image">
         </section>
       </div>
     </main>
 
-            <footer>
-              <div class="footer-container">
-                  <!-- Logo -->
-                  <div class="footer-logo">
-                      <img src="resources/Logo-Updated.jpg" alt="Logo for 'Atropos Beauty' featuring elegant pink and purple glowing text on a dark background. A stylized illustration of a death's-head hawk moth is subtly visible in the background, adding a mysterious and gothic aesthetic.">
-                  </div>
+      <footer>
+        <div class="footer-container">
+            <!-- Logo -->
+            <div class="footer-logo">
+                <img src="resources/Logo-Updated.jpg" alt="Logo for 'Atropos Beauty' featuring elegant pink and purple glowing text on a dark background. A stylized illustration of a death's-head hawk moth is subtly visible in the background, adding a mysterious and gothic aesthetic.">
+            </div>
 
-                  <!-- Business Address (Centered) -->
-                  <div class="footer-info">
-                      <p><strong>Atropos Beauty</strong></p>
-                      <p>4360 Montebello Dr #100</p>
-                      <p>Colorado Springs, CO 80917</p>
-                      <img src="resources/icons8-phone-18.png" alt="telephone icon"><a href="tel:+17196436662">+1 (719) 643-6662</a>
-                  </div>
+            <!-- Business Address (Centered) -->
+            <div class="footer-info">
+                <p><strong>Atropos Beauty</strong></p>
+                <p>4360 Montebello Dr #100</p>
+                <p>Colorado Springs, CO 80917</p>
+                <img src="resources/icons8-phone-18.png" alt="telephone icon"><a href="tel:+17196436662">+1 (719) 643-6662</a>
+            </div>
 
-                  <div class="footer-icons">
-                    <div class="hamburger-menu">
-                      <input type="checkbox" id="menu-toggle" />
-                      <label for="menu-toggle" class="menu-icon">☰</label>
-                      <nav class="footer-nav">
-                        <ul>
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="services.html">Services</a></li>
-                          <li><a href="booking.html">Booking</a></li>
-                          <li><a href="aftercare.html">Aftercare</a></li>
-                          <li><a href="porfolio.html">Portfolio</a></li>
-                          <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                      </nav>
-                    </div>
+            <div class="footer-icons">
+                <div class="hamburger-menu">
+                    <div class="menu-icon">☰</div>
+                    <nav class="footer-nav">
+                      <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="booking.html">Booking</a></li>
+                        <li><a href="aftercare.html">Aftercare</a></li>
+                        <li><a href="porfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </nav>
                   </div>
-              </div>
-          </footer>
+            </div>
+        </div>
+    </footer>
   </body>
 </html>
