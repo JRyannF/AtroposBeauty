@@ -233,7 +233,7 @@ main {
 
 .schedule-button:hover {
     background-color: white;
-    color: #F28963;
+    color: #E157FA;
     text-decoration: underline;
     transform: scale(1.1);
 }
