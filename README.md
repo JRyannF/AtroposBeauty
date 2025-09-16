@@ -42,8 +42,7 @@ Built With
 📍 Location & Contact
 
 Atropos Beauty  
-📍 1112 1/2 W Vermijo Ave, Colorado Springs, CO 80904  
-📞 (719) 643-6662  
+📍 1112 1/2 W Vermijo Ave, Colorado Springs, CO 80904
 📸 Instagram & Facebook linked in footer  
 
 ---
