@@ -42,7 +42,7 @@ Built With
 📍 Location & Contact
 
 Atropos Beauty  
-📍 4360 Montebello Dr #100, Colorado Springs, CO 80917  
+📍 1112 1/2 W Vermijo Ave, Colorado Springs, CO 80904  
 📞 (719) 643-6662  
 📸 Instagram & Facebook linked in footer  
 
